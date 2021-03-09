@@ -1,0 +1,97 @@
+body{
+  background: #f0f6fb;
+}
+header{
+  width: auto;
+  border: 5px solid #009cff;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+header h1{
+  color: #141414;
+}
+.logo{
+  width: 100px;
+  position: absolute;
+  right: 30px;
+  top: 35px
+}
+.cos{
+  background-color: #bfb8ac;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+}
+#diseny_web{
+  width: 150px;
+}
+article{
+  margin-left: 200px;
+  margin-right: 10%;
+}
+.position{
+  position: relative;
+}
+#aprenentatge{
+  position: absolute;
+  width: 200px;
+  right: 30px;
+  top: 160px;
+  border: 3px solid #44533c;
+  border-radius: 10px;
+}
+
+/* menu */
+nav{
+  float: left;
+  height: 200px;
+}
+nav{
+  z-index: 2;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #008cff;
+  padding: 10px 15px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  border-left: 5px solid #bee2ff;
+}
+nav #dalt{
+  border-radius: 20px 20px 0 0;
+}
+nav #vaix{
+  border-radius: 0 0 20px 20px;
+}
+nav a:hover{
+  color: #008cff;
+  background-color: #fff;
+  border-left:5px solid #008cff;
+}
+
+/* botons */
+.boto{
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  background-color: #ff9a14;
+  margin: 30px;
+  border: 3px solid #00baff;
+  border-radius: 15px;
+}
+.boto:hover{
+  background-color: #00baff;
+  border: 3px solid #ff9a14;
+}
+.boto_marges{
+  position: relative;
+  top: 5px;
+}

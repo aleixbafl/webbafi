@@ -1,0 +1,26 @@
+.formulari{
+  background-color: #fff3d9;
+  padding: 20px;
+  margin: 10px;
+  width: 485px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #a76a6a;
+  border-radius: 20px;
+  color: #3c3c3c;
+}
+.formulari h2{
+  color: #39372e;
+}
+.formulari label{
+  font-weight: bold;
+}
+.formulari input, textarea{
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid #a87a7a;
+  background-color: #fffff0;
+}

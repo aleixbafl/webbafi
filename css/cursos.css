@@ -1,0 +1,26 @@
+/* pagina d'inici */
+.cursos{
+  width: 45%;
+  border: 3px dotted #51604d;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  display: inline-table;
+}
+.cursos img{
+  width: 50%;
+}
+.prime{
+  height: 390px;
+}
+.segon{
+  height: 440px;
+}
+.tercer{
+  height: 310px;
+}
+#altres_cursos{
+  height: 100px;
+  line-height: 100px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulari per contactar amb nosaltres</title>
+    <link rel="stylesheet" href="../css/generic.css">
+    <link rel="stylesheet" href="../css/formulari.css">
+  </head>
+  <body>
+    <header>
+      <h1>Formulari per contactar amb nosaltres</h1>
+    </header>
+    <img class="logo" src="../img/logo.png" alt="logo">
+    <div class="cos">
+      <nav>
+        <ul class="ul">
+          <li><a href="../qui_som/quisom.html" target="_blank" id="dalt"><b>Qui som?</b></a></li>
+          <li><a href="../com_fan/fer_cursos.html" target="_blank"><b>Com es pot fer els cursos?</b></a></li>
+          <li><a href="" target="_blank"><b>Cursos</b></a></li>
+          <li><a href="" target="_blank" id="vaix"><b>Aprenentatge</b></a></li>
+        </ul>
+      </nav>
+      <section>
+        <article>
+          <form class="formulari" name="contacte" action="index.html" method="post">
+            <h2>Formulari</h2>
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" id="nom" placeholder="Nom">
+            <label for="cognom_nom">Cognom nom:</label>
+            <input type="text" name="cognom_nom" id="cognom_nom" placeholder="Cognom nom">
+            <label for="gmail">Correu electrònic:</label>
+            <input type="email" name="gmail" id="gmail" placeholder="Correu electrònic">
+            <label for="naixement">Data de naixement:</label>
+            <input type="date" name="naixement" id="naixement">
+            <label>Consulta:</label>
+            <textarea name="consulta" rows="10" cols="60" placeholder="Escriviu el dubte, consulta, fallés..."></textarea>
+            <input type="submit" value="Enviar"> <input type="reset" value="Esborrar">
+          </form>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>

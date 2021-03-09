@@ -1,0 +1,20 @@
+.mySlides{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#boto{
+  margin-left: 47%;
+  margin-right: auto;
+}
+.w3-button{
+  background-color: #e9a24e;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #ff7a00;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.w3-button:hover{
+  cursor: pointer;
+}
